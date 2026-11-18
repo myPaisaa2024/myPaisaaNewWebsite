@@ -1,0 +1,239 @@
+{
+  "brand": {
+    "name": "myPaisaa",
+    "tagline": "India's 100% Regulated Digital Chit Fund",
+    "positioning": "Smart Monthly Savings & Instant Low-Cost Funds (₹1L to ₹30L) with Govt. of Telangana (T-Chits) Security Deposit Compliance",
+    "target_audience": "Salaried professionals, business owners, and savvy savers across Telangana, Andhra Pradesh & Karnataka seeking legal, high-dividend savings or low-friction capital.",
+    "tone": "Warm Indian fintech credibility, transparent, empowering, and conversational (WhatsApp first)."
+  },
+  "colors": {
+    "archetype": "ORGANIC & EARTHY + VIBRANT HIGH-CONVERSION FINTECH (myPaisaa Brand Green & Gold)",
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#F8FAF8",
+        "on_bg": "#122017",
+        "on_bg_muted": "#4B5E52",
+        "roles": {
+          "link": "#0E7A4A",
+          "error": "#B91C1C",
+          "success": "#0E7A4A",
+          "warning": "#B45309"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#122017",
+        "on_bg_muted": "#52675A",
+        "roles": {
+          "link": "#0E7A4A",
+          "error": "#B91C1C",
+          "success": "#0E7A4A",
+          "warning": "#B45309"
+        }
+      },
+      {
+        "name": "panel_accent",
+        "kind": "solid",
+        "bg": "#EBF7F0",
+        "on_bg": "#0B4628",
+        "on_bg_muted": "#236B42",
+        "roles": {
+          "link": "#0B4628",
+          "error": "#991B1B",
+          "success": "#0B4628"
+        }
+      },
+      {
+        "name": "card_gold_tint",
+        "kind": "solid",
+        "bg": "#FFFBEB",
+        "on_bg": "#78350F",
+        "on_bg_muted": "#92400E",
+        "roles": {
+          "link": "#B45309",
+          "error": "#B91C1C",
+          "success": "#047857"
+        }
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#0C2317",
+        "on_bg": "#F2FBF5",
+        "on_bg_muted": "#A2C4B1",
+        "roles": {
+          "link": "#4ADE80",
+          "error": "#FCA5A5",
+          "success": "#86EFAC",
+          "warning": "#FDE047"
+        }
+      },
+      {
+        "name": "navbar_glass",
+        "kind": "glass",
+        "contrast_against": "#FFFFFF",
+        "guarantee": "backdrop-blur-xl bg-white/90 border-b border-emerald-950/10 shadow-xs",
+        "on_bg": "#122017",
+        "on_bg_muted": "#4B5E52",
+        "roles": {
+          "link": "#0E7A4A"
+        }
+      },
+      {
+        "name": "mobile_sticky_bar",
+        "kind": "glass",
+        "contrast_against": "#122017",
+        "guarantee": "backdrop-blur-2xl bg-[#0C2317]/95 border-t border-emerald-500/20 shadow-2xl px-4 py-3",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#A2C4B1",
+        "roles": {
+          "link": "#25D366"
+        }
+      },
+      {
+        "name": "hero_banner",
+        "kind": "solid",
+        "bg": "#061A10",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#B5D6C3",
+        "roles": {
+          "link": "#25D366",
+          "badge_bg": "#123824"
+        }
+      }
+    ],
+    "accent": "#25D366",
+    "on_accent": "#062211",
+    "brand_primary": "#0E7A4A",
+    "brand_dark": "#0C2317",
+    "brand_amber": "#F59E0B"
+  },
+  "typography": {
+    "font_family_heading": "Outfit Variable, sans-serif",
+    "font_family_body": "Plus Jakarta Sans Variable, sans-serif",
+    "font_family_mono": "IBM Plex Mono, monospace",
+    "font_import": "@import \"@fontsource-variable/outfit\";\n@import \"@fontsource-variable/plus-jakarta-sans\";",
+    "scale_px": {
+      "display": 56,
+      "h1": 44,
+      "h2": 32,
+      "h3": 22,
+      "body": 16,
+      "caption": 14
+    },
+    "hierarchy_rules": "Hero heading clamped at max 56px desktop (36px mobile). Never exceed text-6xl. Labels uppercase tracking-[0.15em] text-xs font-semibold."
+  },
+  "entry_surfaces": {
+    "/": "split hero with brand value proposition, dual WhatsApp/App CTAs and live compliance badge on left; interactive Quick Chit Calculator and verified member metrics card on right"
+  },
+  "spacing_and_layout": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-16 sm:py-24",
+    "bento_grid_rules": "Asymmetric multi-column grids for trust and how-it-works sections (grid-cols-1 md:grid-cols-12 with 8/4 or 7/5 splits).",
+    "mobile_first": "Designed strictly mobile-first with thumb-zone CTAs, fluid sliders, tap-friendly WhatsApp links, and persistent bottom sticky action strip."
+  },
+  "components_and_sections": [
+    {
+      "section_id": "navbar",
+      "component_name": "Navbar",
+      "description": "Sticky glass navbar with myPaisaa mascot/logo, live regulatory trust badge ('100% Regulated by Govt. of Telangana (T-Chits)'), plan quick-links, calculator jump, and 'Chat on WhatsApp' action button with pulse dot."
+    },
+    {
+      "section_id": "hero",
+      "component_name": "HeroSection",
+      "description": "High-impact conversion hero: rewritten crisp headline ('Save Smart. Borrow Smarter. 100% Regulated Chit Funds from ₹1 Lakh to ₹30 Lakhs'), dual primary CTA (WhatsApp fast-track + Google Play / App Store download badges), and trust strip featuring ₹500Cr+ Disbursed, 50,000+ Verified Members, 100% Security Deposit Pledged with Govt Registrar, and 24-hr Auction Payouts."
+    },
+    {
+      "section_id": "trust_compliance",
+      "component_name": "TrustComplianceBento",
+      "description": "Visual non-boring credibility matrix: Chit Funds Act 1982 seal, T-Chits Govt Portal verification badge with live check link, 100% FD security deposit pledged in scheduled banks, Razorpay & UPI payment security, and DPIIT / Bharat Inclusion Initiative backing."
+    },
+    {
+      "section_id": "plan_calculator",
+      "component_name": "PlanComparisonTool",
+      "description": "Interactive Chit Calculator & Plan Explorer: Slider or toggle covering the 7 official myPaisaa plans (₹1L, ₹2L, ₹3L, ₹5L, ₹10L, ₹15L, ₹30L). Shows monthly installment, duration (25 months), estimated dividend savings (up to 8-10% IRR), maximum early auction winning pool, and direct 'Lock Plan on WhatsApp' trigger."
+    },
+    {
+      "section_id": "eligibility_checker",
+      "component_name": "EligibilityCheckerModalOrCard",
+      "description": "Quick 4-step interactive flow (Income Type, Monthly Income bracket, State: Telangana/Andhra/Karnataka/Other, Document availability). Instantly gives tailored qualification verdict and generates pre-filled WhatsApp message link with user parameters."
+    },
+    {
+      "section_id": "how_it_works",
+      "component_name": "HowItWorksFlow",
+      "description": "4 scannable modern steps with clean illustrations: 1. 2-Min eKYC & Group Joining -> 2. Save Monthly with UPI auto-debit -> 3. Bid in Weekly In-App e-Auctions -> 4. Win & Receive Payout in 24 Hours or Earn Dividends as Passive Saver."
+    },
+    {
+      "section_id": "plans_catalog",
+      "component_name": "PlansGrid",
+      "description": "7 Scannable Tier Cards categorized for 'Young Savers' (₹1L, ₹2L), 'Growth & Emergencies' (₹3L, ₹5L), and 'Business & Wealth' (₹10L, ₹25L, ₹30L) with one-click direct WhatsApp enquiry."
+    },
+    {
+      "section_id": "social_proof",
+      "component_name": "MemberStories",
+      "description": "Real customer stories from Hyderabad, Bengaluru, and Vijayawada: salaried IT managers saving for down payments, MSME business owners funding emergency inventory, and disciplined household savers."
+    },
+    {
+      "section_id": "faq",
+      "component_name": "FaqAccordion",
+      "description": "Transparent, plain-spoken answers addressing user skepticism: 'Is chit fund safe & legal?', 'How is my money protected?', 'What if someone defaults?', 'How are dividends calculated?', 'When can I withdraw?'"
+    },
+    {
+      "section_id": "app_download_banner",
+      "component_name": "AppDownloadBanner",
+      "description": "Bold contrast banner with QR code for desktop + direct app store links, 4.7-star rating display, and 100k+ downloads badge."
+    },
+    {
+      "section_id": "sticky_mobile_bar",
+      "component_name": "StickyMobileBar",
+      "description": "Fixed bottom thumb bar on mobile with high-contrast WhatsApp button ('Chat with Chit Advisor') and Quick Calculate / Download toggle."
+    },
+    {
+      "section_id": "footer",
+      "component_name": "Footer",
+      "description": "Comprehensive footer with statutory disclosures (Registered Chit Fund Company details, Chit Funds Act 1982, Telangana Registrar compliance), company address in Hyderabad, grievance officer contact, and disclaimers."
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "hero_and_social_proof",
+      "image_url": "https://images.pexels.com/photos/19747856/pexels-photo-19747856.jpeg",
+      "description": "Indian professional smiling and pointing to smartphone app interface, ideal for hero product showcase and testimonial",
+      "usage": "Hero app preview badge or primary saver spotlight"
+    },
+    {
+      "category": "social_proof_business",
+      "image_url": "https://images.pexels.com/photos/36330752/pexels-photo-36330752.jpeg",
+      "description": "Friendly Indian retail business owner smiling in his shop",
+      "usage": "Testimonial card for Business expansion chit plan"
+    },
+    {
+      "category": "social_proof_salaried",
+      "image_url": "https://images.pexels.com/photos/7688183/pexels-photo-7688183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Smiling Indian woman professional sitting with notebook and laptop",
+      "usage": "Testimonial card for Salaried monthly saver plan"
+    }
+  ],
+  "motion_and_interactions": {
+    "principles": "Subtle, purposeful motion that builds trust. Spring physics for interactive sliders and tab switches. Pulse animations on live auction indicators and WhatsApp action triggers.",
+    "hover_states": "Cards elevate with -translate-y-1 and crisp green border glow (border-emerald-500/30). Buttons have active:scale-95 and clear high-contrast states.",
+    "reduced_motion": "Respects prefers-reduced-motion using conditional CSS / Framer Motion settings."
+  },
+  "accessibility": {
+    "wcag_compliance": "WCAG AA (4.5:1 text contrast on all surfaces).",
+    "data_testids": "MANDATORY data-testid on every interactive element (e.g. data-testid='hero-whatsapp-btn', data-testid='chit-slider', data-testid='plan-card-3lakh-enquire', data-testid='eligibility-next-btn').",
+    "aria_labels": "All icon-only buttons, sliders, and modal triggers have explicit aria-label and aria-expanded attributes."
+  },
+  "instructions_to_main_agent": [
+    "1. Replace frontend/src/index.css with Outfit and Plus Jakarta Sans variable font imports and standard brand palette variables.",
+    "2. Build modular frontend components in frontend/src/components/ (Navbar, Hero, TrustCompliance, ChitCalculator, EligibilityModal, HowItWorks, PlansCatalog, Testimonials, FAQ, StickyMobileBar, Footer).",
+    "3. Implement dynamic WhatsApp link builder that pre-fills user plan selection (e.g., 'https://wa.me/919999999999?text=Hi%20myPaisaa,%20I%20am%20interested%20in%20the%20Rs%203%20Lakh%20Chit%20Plan%20with%20Rs%2012,000/mo%20savings').",
+    "4. Ensure full responsive design tested across 375px (iPhone), 768px (iPad) and 1440px desktop viewports.",
+    "5. Every button and input must include strict data-testid attributes for QA automation.",
+    "6. Verify with yarn typecheck from /app/frontend."
+  ]
+}
